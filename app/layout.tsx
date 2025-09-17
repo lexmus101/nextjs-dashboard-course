@@ -1,5 +1,6 @@
 import '@/app/ui/global.css'
 import { inter } from '@/app/ui/fonts'
+import Link from 'next/link';
 
 
 export default function RootLayout({
@@ -13,3 +14,4 @@ export default function RootLayout({
     </html>
   );
 }
+
